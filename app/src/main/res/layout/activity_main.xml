@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/enterName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginLeft="91dp"
+        android:layout_marginTop="267dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginRight="107dp"
+        android:layout_marginBottom="419dp"
+        android:ems="10"
+        android:hint="Enter Something" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="170dp"
+        android:layout_marginBottom="336dp"
+        android:text="Save" />
+
+    <TextView
+        android:id="@+id/resultTv"
+        android:layout_width="373dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="306dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginBottom="294dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/nextActivity"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="614dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginRight="138dp"
+        android:layout_marginBottom="191dp"
+        android:text="Next Activity" />
+</RelativeLayout>
